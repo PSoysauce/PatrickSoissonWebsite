@@ -18,12 +18,17 @@ header::after {
 }
 
 h1 {
-    background-color: red;
+    text-align: left;
+    padding-left: 20px;
 }
 
 p {
     font-family: Verdana;
     font-size: 30px;
+}
+
+pre {
+    font-size: 20px;
 }
 
 ul {

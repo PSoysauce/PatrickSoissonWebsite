@@ -148,3 +148,7 @@ header::after {
     display: table;
     clear: both;
   }
+
+  footer pre {
+      font-size: 14px;
+  }

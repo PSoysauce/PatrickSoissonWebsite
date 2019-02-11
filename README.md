@@ -1,4 +1,4 @@
-# This is my website
+# Patrick Soisson Website
 This website is my personal website so employers and other people can get to know me better!
 
 # What did I learn?

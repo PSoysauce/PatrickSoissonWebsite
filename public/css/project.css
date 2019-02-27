@@ -1,0 +1,201 @@
+body {
+    background-repeat: no-repeat;
+    color: gray;
+    margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+header {
+    background: #343a40;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+pre {
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 12px;
+    padding: 40px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    display: block;
+}
+
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background color: #333;
+    font-family: serif;
+}
+
+li {
+    float: left;
+    font-family: serif;
+}
+
+.active { /*Whichever html page the user is currently on the navbar will appear this color*/
+    background-color: #4CAF50;
+    color: black;
+}
+
+.logo {
+    float:left;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top:23px;
+  
+    position: relative;
+}
+
+nav a {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #000;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+  }
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right a{
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180x;
+}
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+/*
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+*/  

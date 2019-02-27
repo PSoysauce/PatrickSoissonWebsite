@@ -44,23 +44,6 @@ footer {
     display: block;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180x;
-  }
-  div.gallery:hover {
-  border: 1px solid #777;
-}
-  
-/*
-div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-*/
-
   
   div.desc {
     padding: 15px;
@@ -201,3 +184,32 @@ header::after {
 	margin-left: 3px;
 }
 
+.tm-img-gallery {
+  float: center;
+	max-width: 860px;
+	margin: 10px auto 0;
+	width: 100%;		
+}
+
+.tm-img {
+  	width: 280px;
+  	height: auto;
+  	border: 10px solid #ffffff;
+  	margin: 0 auto 10px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180x;
+}
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+/*
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+*/  

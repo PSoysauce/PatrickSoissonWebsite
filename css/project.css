@@ -184,20 +184,6 @@ header::after {
 	margin-left: 3px;
 }
 
-.tm-img-gallery {
-  float: center;
-	max-width: 860px;
-	margin: 10px auto 0;
-	width: 100%;		
-}
-
-.tm-img {
-  	width: 280px;
-  	height: auto;
-  	border: 10px solid #ffffff;
-  	margin: 0 auto 10px;
-}
-
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;

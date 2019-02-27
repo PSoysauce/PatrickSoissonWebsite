@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://lucid-hamilton-79ada5.netlify.com/* http://patricksoisson.com/:splat 301!
